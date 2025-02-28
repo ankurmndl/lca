@@ -27,7 +27,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ["https://ankurm.pythonanywhere.com", "https://lca-production.up.railway.app/", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["https://ankurm.pythonanywhere.com", "https://lca-production.up.railway.app", "127.0.0.1", "localhost"]
 
 
 # Application definition
