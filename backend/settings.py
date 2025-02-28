@@ -27,7 +27,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ["ankurm.pythonanywhere.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["https://ankurm.pythonanywhere.com", "https://lca-production.up.railway.app/", "127.0.0.1", "localhost"]
 
 
 # Application definition
@@ -133,4 +133,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Next.js runs on port 3000
     "https://lca-front.vercel.app",
+    "https://lca-production.up.railway.app/",
 ]
