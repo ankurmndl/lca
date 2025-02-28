@@ -133,5 +133,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Next.js runs on port 3000
     "https://lca-front.vercel.app",
-    "https://lca-production.up.railway.app/",
+    # "https://lca-production.up.railway.app/",
 ]
